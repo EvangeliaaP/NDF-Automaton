@@ -1,0 +1,9 @@
+{
+  "noStates": 4,
+  "originalState": 1,
+  "noFinalStates": 2,
+  "finalStates": [4],
+  "noTransitions": 8,
+  "transitions":
+["102","101","111","203","213","304","404","414"]
+}

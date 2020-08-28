@@ -1,0 +1,8 @@
+{
+   "noStates":   3,
+    "originalState":   1,
+    "noFinalStates":   1,
+    "finalStates":   [1],
+    "noTransitions":  4,
+    "transitions":["1a2","2b1","2b3","3a1"]
+}
