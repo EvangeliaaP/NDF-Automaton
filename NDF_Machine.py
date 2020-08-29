@@ -2,7 +2,6 @@ import json
 
 """Function that accepts one character at the time as an input and then checks for each character the transition from state to state according to the transition function""" 
 def checkCharByChar(dictionary):
-     continueInput = True
      transitions = dictionary["transitions"]
      numberOfStates = dictionary["noStates"] 
      finalStates = dictionary["finalStates"] 
@@ -34,7 +33,6 @@ def checkCharByChar(dictionary):
                  
 """Function that accepts the whole word as an input and then checks for each letter the transition from state to state according to the transition function"""      
 def checkTheWord(dictionary):
-     continueInput = True
      transitions = dictionary["transitions"]
      numberOfStates = dictionary["noStates"]
      finalStates = dictionary["finalStates"]
